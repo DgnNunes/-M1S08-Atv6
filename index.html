@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Classe</title>
+    <style>
+        .minhaNovaClasse{
+            font-size: 20px;
+            color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="meuElemento">Este é o meu elemento</div>
+
+    <div class="minhaNovaClasse">Esta e o elemento que vai ser adicionado na Classe</div>
+
+    <script>
+        
+        let elemento = document.getElementById("meuElemento");
+        elemento.classList.add("minhaNovaClasse");
+    </script>
+
+</body>
+</html>
